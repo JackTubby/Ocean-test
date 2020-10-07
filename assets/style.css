@@ -1,0 +1,152 @@
+/*Colors: #033249 = Blue  #ff8038 = Orange*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100;300;400&display=swap');
+
+
+#top-background{
+    height: 100vh;
+    background: linear-gradient(90deg, #033249 50%, #ff8038 50%);
+}
+
+
+/* Navbar */
+
+.link-style {
+    margin-right: 6em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+#navbar-item-color {
+    color: black;
+}
+
+#navbar-item-color:hover {
+    color: #033249;
+    font-size: 21px;
+}
+
+/* Main Content */
+
+#logo-style {
+    width: 100px;
+}
+
+.logo-welcome-wrapper {
+    margin-top: 10em;
+}
+
+.left-side-wrapper {
+    padding-top: 30px;
+}
+.left-text-styling {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 8px;
+}
+
+.h1-styling {
+    font-size: 60px;
+    letter-spacing: 0;
+}
+
+.right-side-wrapper {
+    padding-left: 80px;
+}
+
+.right-text-styling {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 700px;
+    padding-top: 10px;
+}
+
+.h2-styling {
+    font-size: 45px;
+    letter-spacing: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.contact-info-wrapper {
+    margin-top: 200px;
+}
+
+.contact-info-styling {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.social-icon-wrapper {
+    padding-top: 35px;
+}
+
+.social-icon {
+    color: black;
+    font-size: 28px;
+    letter-spacing: 30px;
+}
+
+.social-icon:hover {
+    color: #033249;
+}
+
+/* About */
+
+#middle-background {
+    background: rgba(0,0,0,0.5);
+    height: 80vh;
+    background-image: url("../code-background.jpg");
+    background-blend-mode: overlay;
+	background-size: cover;
+	background-position: bottom;
+	position: relative;
+    padding-top: 20px;
+}
+
+.about-us-wrapper {
+    margin-top: 10em;
+}
+
+.h3-about-us {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    padding: 10px 0;
+}
+
+.p-about-us {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+}
+
+/* SERVICES */
+
+#bottom-background {
+    background-color: #033249;
+    height: 60vh;
+}
+
+.card-wrapper {
+    margin-top: 5em;
+}
+
+.card-title {
+    font-family: "Roboto", sans-serif;
+    color: #ff8038;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.card-text {
+    color: white;
+}
